@@ -1,0 +1,43 @@
+{
+  "alpha_fwer": 0.01,
+  "ramp_policy": "adaptive",
+  "max_batches": 40,
+  "users_per_batch": 4000,
+  "scenarios": {
+    "clean": {
+      "n_releases": 800,
+      "engine": {
+        "rollback_rate": 0.00125,
+        "go_rate": 0.97,
+        "continue_rate": 0.02875,
+        "declared_alpha": 0.01,
+        "alpha_respected": true,
+        "mean_batches_to_rollback": 3.0,
+        "median_batches_to_rollback": 3.0,
+        "mean_treated_requests_at_rollback": 1319.0,
+        "median_treated_requests_at_rollback": 1319.0,
+        "segment_localisation_rate": null,
+        "segment_localisation_rate_when_armed": null,
+        "global_gate_first_rate": null
+      },
+      "dashboard": {
+        "rollback_rate": 0.895,
+        "mean_batches_to_rollback": 8.558659217877095,
+        "mean_treated_requests_at_rollback": 14676.290502793296
+      },
+      "dashboard_zscore": {
+        "rollback_rate": 0.04625,
+        "mean_batches_to_rollback": 7.324324324324325,
+        "mean_treated_requests_at_rollback": 10124.864864864865
+      },
+      "spec": {
+        "kind": "none",
+        "magnitude": 0.0,
+        "shape": "step",
+        "target_dim": null,
+        "target_cat": null
+      }
+    }
+  },
+  "elapsed_seconds": 617.0316059589386
+}

@@ -16,3 +16,12 @@ node_modules/
 __pycache__/
 .venv/
 venv/
+
+# simulation intermediate outputs (dashboards in outputs/ root are kept)
+outputs/full_grid/
+outputs/full_grid_v2/
+outputs/medium/
+outputs/smoke/
+outputs/*.log
+__pycache__/
+*.pyc

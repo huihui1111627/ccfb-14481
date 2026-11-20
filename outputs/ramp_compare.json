@@ -1,0 +1,82 @@
+{
+  "clean": {
+    "adaptive": {
+      "rollback_rate": 0.008333333333333333,
+      "go_rate": 0.9666666666666667,
+      "mean_batches": 26.825,
+      "mean_treated_requests": 382608.325,
+      "mean_treated_requests_if_rollback": 197280.0
+    },
+    "staircase": {
+      "rollback_rate": 0.008333333333333333,
+      "go_rate": 0.9666666666666667,
+      "mean_batches": 29.3,
+      "mean_treated_requests": 338736.24166666664,
+      "mean_treated_requests_if_rollback": 114267.0
+    }
+  },
+  "fail_half_pp": {
+    "adaptive": {
+      "rollback_rate": 1.0,
+      "go_rate": 0.0,
+      "mean_batches": 9.15,
+      "mean_treated_requests": 11238.033333333333,
+      "mean_treated_requests_if_rollback": 11238.033333333333
+    },
+    "staircase": {
+      "rollback_rate": 1.0,
+      "go_rate": 0.0,
+      "mean_batches": 9.2,
+      "mean_treated_requests": 10610.108333333334,
+      "mean_treated_requests_if_rollback": 10610.108333333334
+    }
+  },
+  "fail_1pp": {
+    "adaptive": {
+      "rollback_rate": 1.0,
+      "go_rate": 0.0,
+      "mean_batches": 4.8,
+      "mean_treated_requests": 3050.133333333333,
+      "mean_treated_requests_if_rollback": 3050.133333333333
+    },
+    "staircase": {
+      "rollback_rate": 1.0,
+      "go_rate": 0.0,
+      "mean_batches": 5.35,
+      "mean_treated_requests": 3211.025,
+      "mean_treated_requests_if_rollback": 3211.025
+    }
+  },
+  "segment_natural": {
+    "adaptive": {
+      "rollback_rate": 1.0,
+      "go_rate": 0.0,
+      "mean_batches": 9.916666666666666,
+      "mean_treated_requests": 12286.95,
+      "mean_treated_requests_if_rollback": 12286.95
+    },
+    "staircase": {
+      "rollback_rate": 1.0,
+      "go_rate": 0.0,
+      "mean_batches": 10.183333333333334,
+      "mean_treated_requests": 12525.466666666667,
+      "mean_treated_requests_if_rollback": 12525.466666666667
+    }
+  },
+  "latency_burst": {
+    "adaptive": {
+      "rollback_rate": 1.0,
+      "go_rate": 0.0,
+      "mean_batches": 5.0,
+      "mean_treated_requests": 3061.4416666666666,
+      "mean_treated_requests_if_rollback": 3061.4416666666666
+    },
+    "staircase": {
+      "rollback_rate": 1.0,
+      "go_rate": 0.0,
+      "mean_batches": 6.616666666666666,
+      "mean_treated_requests": 4840.341666666666,
+      "mean_treated_requests_if_rollback": 4840.341666666666
+    }
+  }
+}
